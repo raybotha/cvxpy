@@ -72,7 +72,7 @@ setup(
     install_requires=["osqp >= 0.4.1",
                       "ecos >= 2",
                       "scs >= 1.1.3",
-                      "numpy >= 1.15",
+                      "numpy == 1.18.5",
                       "scipy >= 1.1.0"],
-    setup_requires=["numpy >= 1.15"],
+    setup_requires=["numpy == 1.18.5"],
 )
